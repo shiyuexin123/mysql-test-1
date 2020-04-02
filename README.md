@@ -18,6 +18,7 @@ code here
 ```
 
 ！[](https://github.com/shiyuexin123/mysql-test-1/blob/master/6.12.png)
+
 ## 题目2：如何join两张表
 ```
 select*form A join B on s_id=s_no
