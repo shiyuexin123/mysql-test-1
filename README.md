@@ -1,3 +1,6 @@
+姓名：施跃鑫
+学号：17061522
+
 ## 题目1：建立一个mysql database, 包含以下两张表：
 ```sql
 mysql> show databases;
@@ -14,6 +17,9 @@ mysql> show databases;
 code here
 ```
 ## 题目2：如何join两张表
+```
+select*form A join B on s_id=s_no
+```
 
 ## 题目3： xxxx
 
