@@ -1,4 +1,5 @@
-## 题目1：建立一个mysql database, 包含以下两张表：
+学号：1706519名称：刘浩
+##译文1：建立一个MySQL数据库，包含以下两张表：
 
 ```sql
 mysql> show databases; 
@@ -18,4 +19,4 @@ mysql> show databases;
 ## 题目3： xxxx
 
 ## 题目4： xxxx
-111
+
