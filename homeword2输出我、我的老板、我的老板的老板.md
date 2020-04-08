@@ -28,7 +28,8 @@ VALUES (7369, "SMITH", "CLERK", 7902, "1981-03-12", 800.00, NULL, 20),
 
 select*from t_employee2;
 
-select*from (t_employee2 t1 inner join t_employee2 t2 on t1. mgr= t2.empno ) inner join t_employee2 t3 on t2. mgr= t3.empno;
+select*from (t_employee2 t1 inner join t_employee2 t2 on t1. mgr= t2.empno ) 
+inner join t_employee2 t3 on t2. mgr= t3.empno;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/2.1.png)
