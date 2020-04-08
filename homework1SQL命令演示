@@ -26,3 +26,9 @@ SHOW ENGINGS;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.4.png)
+2、查看默认的存储引擎
+```sql
+SHOW VARIABLES LIKE ‘%storage_engine%’;
+code here
+```
+![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.5.png)
