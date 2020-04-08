@@ -6,6 +6,7 @@ CREATE DATABASE ONE;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.1.png)
+
 2、查看和选择数据库
 ```sql
 SHOW DATABASES;  
@@ -13,12 +14,14 @@ USE ONE;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.2.png)
+
 3、删除数据库
 ```sql
 DROP　DATABASE ONE；
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.3.png)
+
 ## 二、如何查看MySQL数据库中的存储引擎
 1、查看所支持的存储引擎
 ```sql
@@ -26,12 +29,14 @@ SHOW ENGINGS;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.4.png)
+
 2、查看默认的存储引擎
 ```sql
 SHOW VARIABLES LIKE ‘%storage_engine%’;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.5.png)
+
 ## 三、介绍对表操作的相关命令
 1、在数据库中创建一个新的表
 ```sql
@@ -43,6 +48,7 @@ loc VARCHAR(40)
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.6.png)
+
 2、查看表的定义信息
 ```sql
 DESCRIBE(DESC) t_dept;	
@@ -50,6 +56,7 @@ SHOW CREATE TABLE t_dept;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.7.png)
+
 3、删除表
 ```sql
 DROP TABLE t_dept;	
@@ -57,6 +64,7 @@ DESCRIBE t_dept;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.8.png)
+
 4、修改表名
 ```sql
 ALTER TABLE t_dept RENAME t_dept1;  
@@ -66,6 +74,7 @@ DESC t_dept1;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.9.png)
+
 5、增加字段和删除字段
 1）在表的最后面增加字段
 ```sql
@@ -75,6 +84,7 @@ DESC t_dept1;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.10.png)
+
 2）在表的最前面增加字段
 ```sql
 DESC t_dept1;
@@ -83,6 +93,7 @@ DESC t_dept1;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.11.png)
+
 3）在表指定字段后增加字段
 ```sql
 DESC t_dept1;
@@ -91,6 +102,7 @@ DESC t_dept1;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.12.png)
+
 4)删除字段
 ```sql
 DESC t_dept1;
@@ -100,6 +112,7 @@ DESC t_dept1;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.13.png)
+
 6.修改字段
 1）修改字段的数据类型
 ```sql
@@ -109,6 +122,7 @@ DESC t_dept1;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.14.png)
+
 2）同时修改字段的名字和数据类型
 ```sql
 DESC t_dept1; 
@@ -118,6 +132,7 @@ DESC t_dept1;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.15.png)
+
 3）修改字段顺序
 ```sql
 DESC t_dept1; 
@@ -127,6 +142,7 @@ DESC t_dept1;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.16.png)
+
 ## 四、操作表的约束
 ```sql
 CREATE TABLE two(
@@ -139,6 +155,7 @@ number INT PRIMARY KEY AUTO_INCREMENT
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.17.png)
+
 ## 五、数据的操作
 1、插入数据记录
 ```sql
@@ -158,6 +175,7 @@ SELECT*FROM LIST;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.19.png)
+
 2.同时插入多条数据记录
 ```sql
 INSERT INTO list(name,sex,tel,local)
@@ -169,6 +187,7 @@ SELECT*FROM LIST;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.20.png)
+
 3、将一个表的记录插入另一个表中
 ```sql
 CREATE TABLE LIST2(
