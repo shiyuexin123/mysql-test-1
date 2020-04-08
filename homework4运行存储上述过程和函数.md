@@ -30,4 +30,5 @@ SELECT func_employee_sal(7934);
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/4.2.png)
+
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/4.3.png)
