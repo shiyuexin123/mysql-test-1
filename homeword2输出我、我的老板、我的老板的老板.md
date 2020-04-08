@@ -32,6 +32,9 @@ select *	from (t_employee2 t1 inner join t_employee2 t2 on t1. mgr= t2.empno ) i
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/2.1.png)
+```sql
 select t1.ename My_name,t2.ename My_b_name ,t3.ename My_b_b_name from
 (t_employee2 t1 inner join t_employee2 t2 on t1. mgr= t2.empno ) inner join t_employee2 t3 on t2.mgr=t3.empno;
+code here
+```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/2.2.png)
