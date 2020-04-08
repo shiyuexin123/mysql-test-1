@@ -1,6 +1,15 @@
+姓名：施跃鑫  学号：17061522
 ## 一、介绍对数据库操作相关的命令
+1、创建一个新的数据库
 ```sql
 CREATE DATABASE ONE;
 code here
 ```
-![]()
+![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.1.png)
+2、查看和选择数据库
+```sql
+SHOW DATABASES;  
+USE ONE;          
+code here
+```
+![](https://github.com/shiyuexin123/mysql-test-1/blob/master/1.2.png)
