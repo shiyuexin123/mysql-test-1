@@ -1,4 +1,4 @@
-1.	INNER JOIN的应用
+## INNER JOIN的应用
 ```sql
 DROP TABLE IF EXISTS t_employee2;
 CREATE TABLE t_employee2 (	
@@ -26,15 +26,15 @@ VALUES (7369, "SMITH", "CLERK", 7902, "1981-03-12", 800.00, NULL, 20),
 	(7902, "FORD", "ANALYST", 7566, "1981-03-12", 3000, NULL, 20),
 	(7934, "MILLER", "CLERK", 7782, "1981-03-12", 1300, NULL, 10);
 
-select * from t_employee2;
+select*from t_employee2;
 
-select *	from (t_employee2 t1 inner join t_employee2 t2 on t1. mgr= t2.empno ) inner join t_employee2 t3 on t2. mgr= t3.empno;
+select*from (t_employee2 t1 inner join t_employee2 t2 on t1. mgr= t2.empno ) inner join t_employee2 t3 on t2. mgr= t3.empno;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/2.1.png)
 ```sql
-select t1.ename My_name,t2.ename My_b_name ,t3.ename My_b_b_name from
-(t_employee2 t1 inner join t_employee2 t2 on t1. mgr= t2.empno ) inner join t_employee2 t3 on t2.mgr=t3.empno;
+select t1.ename My_name,t2.ename My_b_name ,t3.ename My_b_b_name 
+from(t_employee2 t1 inner join t_employee2 t2 on t1. mgr= t2.empno ) inner join t_employee2 t3 on t2.mgr=t3.empno;
 code here
 ```
 ![](https://github.com/shiyuexin123/mysql-test-1/blob/master/2.2.png)
