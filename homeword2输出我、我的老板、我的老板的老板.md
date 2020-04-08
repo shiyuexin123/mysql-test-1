@@ -1,4 +1,4 @@
-## INNER JOIN的应用
+## 内连接INNER JOIN的应用
 ```sql
 DROP TABLE IF EXISTS t_employee2;
 CREATE TABLE t_employee2 (	
